@@ -75,9 +75,11 @@ class MarkovMachine {
 }
 
 // let mm = new MarkovMachine("the cat in the hat is in the hat");
-let mm = new MarkovMachine(
-  "so yesterday I went to the store and purchased a large box of things and there were so many things to choose from and I just loved it so much that I want to go back so so badly"
-);
+// let mm = new MarkovMachine(
+//   "so yesterday I went to the store and purchased a large box of things and there were so many things to choose from and I just loved it so much that I want to go back so so badly"
+// );
 
 // mm.makeText();
-mm.makeText((numWords = 50));
+// mm.makeText((numWords = 50));
+
+module.exports = { MarkovMachine };
